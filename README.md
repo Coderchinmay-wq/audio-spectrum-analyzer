@@ -376,3 +376,124 @@ The project implements the following blocks of an analog signal-processing chain
 │ LM3915 + LED Bar    │
 └─────────────────────┘
 ```
+## 📚 Key Concepts Demonstrated
+
+Linear Integrated Circuits
+
+Operational Amplifier Applications
+
+Electret Microphone Interfacing
+
+Signal Conditioning
+
+Non-Inverting Amplifier
+
+Voltage Gain
+
+Active Band-Pass Filters
+
+Frequency Separation
+
+Precision Rectifier
+
+Peak Detection
+
+AC-to-DC Conversion
+
+Peak Holding
+
+LED Level Indication
+
+LM3915 Logarithmic Display
+
+Analog Signal Processing
+
+Hardware Debugging
+
+CRO-Based Signal Verification
+
+## 🛠️ Practical Design Challenges
+
+1. Low-Level Microphone Signal
+
+The microphone generates only a few millivolts, requiring a sufficiently high-gain but stable pre-amplifier.
+
+2. Noise
+
+Low-level analog signals are susceptible to environmental and electrical noise.
+
+3. Frequency Separation
+
+The active filters must provide appropriate frequency separation between the three bands.
+
+4. Peak Detection
+
+The peak detector must accurately follow the amplitude of the filtered audio signal.
+
+5. LED Stability
+
+The peak-hold capacitor helps prevent excessive LED flickering.
+
+## 🚀 Future Improvements
+
+### Possible improvements include:
+
+Increase the number of frequency bands.
+
+Add more LED bars for finer resolution.
+
+Design higher-order filters for sharper frequency separation.
+
+Add adjustable frequency bands.
+
+Improve PCB grounding and signal routing.
+
+Add an OLED/LCD display.
+
+Add a microcontroller or FPGA for digital spectrum visualization.
+
+Implement FFT-based digital spectrum analysis.
+
+Add USB/serial data logging.
+
+Compare analog spectrum analysis with digital FFT results.
+
+## 🎓 Academic Context
+
+Course: Linear Integrated Circuits (LIC)
+
+Project: Audio Spectrum Display
+
+Domain: Analog Electronics / Signal Processing
+
+Implementation: Hardware
+
+## 👨‍💻 Author
+
+Chinmay N. Yalawatti
+
+Electronics & Communication Engineering
+
+## 📄 Documentation
+
+The complete project report is available in the report/ directory.
+
+## ⭐ Project Highlights
+
+🎤 Electret microphone audio capture
+
+🔊 NE5532 low-level signal amplification
+
+🎚️ TL074 three-band active filtering
+
+⚡ LM324 precision peak detection
+
+💡 LM3915 logarithmic LED level display
+
+🧪 Real hardware implementation and verification
+
+📈 Approximately 38× overall signal gain
+
+## 📜 License
+
+This project is intended for educational and academic purposes.
